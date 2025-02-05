@@ -25,6 +25,10 @@
 .footer-box4 h5 {
     font-size: 20px;
 }
+.inner{
+    margin-top: -340px;
+    height: 72vh;
+}
 }
 @media(max-width:980px){
     .navbar{
@@ -40,6 +44,7 @@
         background-color: black;
         position: sticky;
         top: 0;
+        z-index: 3;
     }
     .image-cake-zone {
         background-color:black;
@@ -147,6 +152,10 @@
     } 
     .upper-text1{
         width: 40%;
+    }
+    .inner{
+        height: 179vh;
+        margin-top: -729px;
     }
 }
 @media(max-width:635px){
@@ -334,7 +343,6 @@ width: 100%;
     }
     .team-containers {
         flex-direction: column;
-        align-items: center;
         width: 100%;
         gap: 20px;
 
@@ -384,6 +392,10 @@ width: 100%;
         color: white;
         width: 45%;
     }
+    .inner {
+        height: 105vh;
+        margin-top: -458px;
+    }
 }
 @media(max-width:368px){
   .paras-pri {
@@ -400,6 +412,38 @@ width: 100%;
     font-size: 28px;
 }
 }
+@media(max-width:344px){
+    .paras-pri {
+        border: 1px solid white;
+    padding: 10px 86px;
+        flex-direction: column;
+    }
+        .pricing-box {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+    }
+    .text-pricing p{
+        font-size: 16px;
+    }
+    .box-image h5{
+    font-size: 16px;
+    }
+    .btns-offer {
+        width: 50%;
+    }
+    .headings h2 {
+        font-size: 40px;
+    }
+    .headings h3 {
+        font-size: 32px;
+    }
+    .headings p {
+        font-size: 14px;
+        color: white;
+        width: 45%;
+    }
+}
 @media(max-width:320px){
     .paras-pri {
         border: 1px solid white;
@@ -414,6 +458,10 @@ width: 100%;
     .first-box-pricing {
     
 flex-direction: column;
+}
+.inner{
+    height: 77vh;
+    margin-top: -365px;
 }
 .box-image {
     width: 100%;
